@@ -1,0 +1,215 @@
+body{
+margin: 0px;
+font-family: sans-serif;
+font-size: 16px;
+font-weight: 400;
+color: #0f2656;
+
+}
+/*header starts*/
+
+header {	
+	padding:15px 0;
+	border-bottom: 2px solid #eef0f3;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo {
+	width:15%;
+	float: left;
+}
+.logo a {
+
+}
+.logo a img {
+	width:100%;
+}
+.menu {
+	width:60%;
+	float: right;
+}
+.menu ul {
+	float:right;
+}
+.menu ul li {
+	list-style: none;
+	float:left;
+}
+.menu ul li a {
+	padding:0px 30px;
+	display: inline-block;
+	color: #0f2656;
+	text-decoration: none;
+	transition-duration: 0.3s;
+}
+.menu ul li a:last-child {
+	padding-right: 0;
+}
+
+.menu ul li a:hover {
+	color: #008aff;
+
+}
+/*header ends*/
+
+/*banner starts*/
+
+.banner {
+	padding:50px 0;
+}
+ .container2 {
+ 	width:60%;
+ 	margin:0 auto;
+ 	text-align: center;
+ 	overflow: hidden;
+
+ }
+ .b_h1 {
+ 	margin:0;
+ 	padding: 0 40px;
+ 	font-size:50px;
+ 	font-weight: 700;
+ 	line-height: 55px;
+
+ }
+
+ .b_h1 span {
+ 	color: #008aff;;
+ }
+
+ .b_p {
+ 	margin:30px 0;
+ 	padding: 0 10px;
+ 	line-height: 25px;
+
+ }
+ 
+ 	
+ }
+ .container2 p {}
+ .b_img {
+ 	margin:0 auto;
+ 	width:80%;
+ }
+
+ .b_img img { 
+
+ width:100%; 
+}
+
+/*banner ends*/
+
+
+/*sucess starts*/
+
+.success {
+	padding-bottom: 50px;
+	
+}
+
+.s_left {
+	width:42%;
+	text-align:right;
+	float:left;
+
+}
+.s_left h2 {
+	margin:0;
+	font-size: 35px;
+	font-weight:700;
+	color: #f15767;
+
+}
+.s_left p {
+	margin-top: 5px;
+	line-height: 25px;
+}
+.s_right {
+	width:55%;
+	text-align:left;
+	float:right;
+}
+.s_right h1 {
+	margin:0;
+	font-size: 42px;
+	font-weight: 700;
+}
+
+/*sucess ends*/
+
+/*feature starts*/
+.feature {
+	padding-bottom: 50px;
+}
+.f-item {
+	margin-right: 2%;
+	padding: 50px 2%;
+	width: 28%;
+	float:left;
+}
+
+.f-item:first-child{
+	background-color:#fdebed ;
+}
+
+.f-item:nth-child(2) {
+	background-color:#ebf9f4 ;
+}
+
+
+.f-item:last-child{
+	background-color:#fff7e8 ;
+	margin-right: 0px;
+}
+
+
+
+
+.f-img {
+	
+}
+.f-img img {
+	width:100%;
+}
+.f-item h2 {
+	margin: 15px 0;
+	font-size: 18px;
+	font-weight: 700;
+}
+.f-item p {
+	margin:0;
+	line-height: 25px;
+}
+
+/* feature ends*/
+
+/*footer starts*/
+
+footer{
+	padding:25px 0;
+}
+footer p {
+	margin:0;
+	padding:10px 0;
+	text-align: center;
+	color: white;
+	background-color:#008aff ;
+}
+
+footer p a {
+	color: white;
+	text-decoration: none;
+	transition-duration: 0.3s;
+
+}
+
+footer p a:hover {
+	color:#0f2656;
+}
+
+
+/*footer ends */
